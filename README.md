@@ -29,11 +29,13 @@
 $ paru -S catppucin-gtk-mocha
 $ paru -S catppuccin-cursors-mocha
 
-# You can also get all repository fonts for max font compatibility. This is COMPLETELY optional, as it takes quite a bit of storage space with small partitions.
+# You can also get all repository fonts for max font compatibility.
+# This is COMPLETELY optional, as it takes quite a bit of storage space with small partitions.
 $ paru -S all-repository-fonts
 ```
 #### gnome
 ```sh
-# For GNOME, you'll need `gnome` and `gnome-extra`. These commands will be assuming you're in root. `gnome-tweaks` will be handy for customisation (unless you use gsettings through the CLI).
+# For GNOME, you'll need `gnome` and `gnome-extra`. These commands will be assuming you're in root. 
+# `gnome-tweaks` will be handy for customisation (unless you use gsettings through the CLI).
 $ pacman -S gnome gnome-extra gnome-tweaks
 ```
