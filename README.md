@@ -7,6 +7,7 @@ https://github.com/user-attachments/assets/b7b29960-f758-433d-a47a-5172bf35af43
 ## Info
 > Below is some information on the desired replicated instance.
 - Distribution: Arch Linux (rolling-release)
+> Arch Linux was installed through `archinstall` through manual partitioning beforehand, and using the `pre-mounted configuration` option in the script. It was also installed with NVIDIA Drivers (using open kernel modules).
 - Display Server: Wayland (due to Hyprland)
 - WM, Compositor: Hyprland
 - Host: "phrixus"
