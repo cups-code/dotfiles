@@ -1,0 +1,136 @@
+// Configuration by @cuppers
+// Install the mtab extension: https://addons.mozilla.org/en-US/firefox/addon/mtab/
+// Convert the contents of this json file to MTB_SAVE_FORMAT through the `config-utils` button
+
+{
+  "options": {
+    "showOptionsButton": true,
+  },
+  "user": {
+    "name": "apollo",
+  },
+  "title": {
+    "defaultTitle": "/bin/tab",
+    "dynamic": {
+      "enabled": true,
+    },
+    "faviconType": "custom",
+  },
+  "message": {
+    "enabled": true,
+    "font": {
+      "type": "default",
+      "custom": "",
+    },
+    "textColor": "#fbf1c7",
+    "textSize": 2,
+    "type": "custom",
+    "customText": "welcome, apollo",
+    "weather": {
+      "unitsType": "f",
+    },
+  },
+  "wallpaper": {
+    "type": "fileUpload",
+    "enabled": true,
+    "url": "./wallpapers/default.png",
+    "filters": {
+      "brightness": "1",
+      "blur": "4px",
+    },
+  },
+  "ui": {
+    "style": "glass",
+    "glassColor": "#fbf1c720",
+    "blurStrength": "16px",
+    "foregroundColor": "#262626",
+    "backgroundColor": "#282828",
+    "highlightColor": "#fbf1c720",
+    "cornerStyle": "round",
+    "customCSS": "/* input custom css... */",
+  },
+  "animations": {
+    "enabled": false,
+    "bookmarkTiming": "uniform",
+    "initialType": "animate-up-smooth",
+    "searchType": "animate-page-shrink",
+    "bookmarkType": "animate-page-up",
+  },
+  "search": {
+    "enabled": true,
+    "font": {
+      "type": "default",
+      "custom": "",
+    },
+    "textColor": "#fbf1c7",
+    "placeholderText": "",
+    "bookmarkPlaceholderText": "/*bkmk",
+    "placeholderTextColor": "#d5c4a1",
+    "searchIconColor": "#83a598",
+    "bookmarkIconColor": "#d3869b",
+    "selectIconColor": "#83a598",
+    "engine": "duckduckgo",
+    "useCustomEngine": false,
+    "customEngineURL": "",
+    "focusedBorderColor": "#83a598",
+    "assist": {
+      "date": true,
+      "math": true,
+      "definitions": true,
+      "conversions": true,
+    },
+  },
+  "hotkeys": {
+    "enabled": true,
+    "activationKey": " ",
+    "closePageKey": "x",
+    "searchBookmarksKey": "b",
+  },
+  "bookmarks": {
+    "type": "user-defined",
+    "showBookmarkNames": false,
+    "numberKeys": true,
+    "lineOrientation": "top",
+    "defaultFolderIconType": "ri-folder-fill",
+    "userDefinedCols": 3,
+    "userDefined": [
+      {
+        "type": "bookmark",
+        "name": "hotcuppa",
+        "url": "https://cups-code.github.io/hotcuppa",
+        "color": "#fabd2f",
+        "iconType": "nf-oct-pencil",
+        "iconColor": "#fbf1c7",
+        "fill": "",
+      },
+      {
+        "type": "bookmark",
+        "name": "arch-wiki",
+        "url": "https://wiki.archlinux.org",
+        "color": "#83a598",
+        "iconType": "nf-md-arch",
+        "iconColor": "#fbf1c7",
+        "fill": "",
+      },
+      {
+        "type": "bookmark",
+        "name": "github",
+        "url": "https://github.com/cups-code",
+        "color": "#928374",
+        "iconType": "nf-md-github",
+        "iconColor": "#fbf1c7",
+        "fill": "",
+      },
+    ],
+    "defaultBlockyCols": 4,
+    "defaultBlockyColorType": "custom",
+    "defaultBlockyColor": "#ffffff",
+    "bookmarksLocationFirefox": "toolbar",
+    "defaultFaviconSource": "duckduckgo",
+  },
+  "extras": {
+    "snow": {
+      "enabled": "off",
+    },
+  },
+}
