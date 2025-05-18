@@ -2,6 +2,8 @@
 > local minecraft youtuber runs linux?!
 - If you want to view the old dotfiles, go here: https://github.com/cups-code/dotfiles-old
 
+https://github.com/user-attachments/assets/b7b29960-f758-433d-a47a-5172bf35af43
+
 ## Info
 > Below is some information on the desired replicated instance.
 - Distribution: Arch Linux (rolling-release)
