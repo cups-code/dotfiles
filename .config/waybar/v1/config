@@ -1,0 +1,109 @@
+{
+	"layer": "top",
+	"modules-left": ["custom/launcher", "backlight", "wireplumber"],
+	"modules-center": ["hyprland/workspaces"],
+	"modules-right": ["tray", "network", "cpu", "memory", "battery", "clock"],
+
+  "wireplumber": {
+    "tooltip": false,
+    "scroll-step": 5,
+    "format": "{icon}  {volume}%",
+    "format-muted": "󰝟  {volume}%",
+    "on-click":"kitty -- alsamixer -V all",
+    "format-icons": {
+      "default": ["", "", ""]
+    }
+  },
+
+  "tray": {
+    "icon-size": 18,
+    "spacing": 10
+  },
+
+  "network": {
+    "tooltip": false,
+    "format-wifi": "  On",
+    "format-ethernet": "",
+    "on-click":"kitty -- nmtui",
+	},
+
+
+	"backlight": {
+		"tooltip": false,
+		"format": " {}%",
+		"interval":1,
+        "on-scroll-up": "light -A 5",
+		"on-scroll-down": "light -U 5"
+	},
+
+
+  "battery": {
+      "states": {
+          "full": 100,
+          "good": 95,
+          "decent": 50,
+          "warning": 30,
+          "critical": 20
+      },
+      "format": "{icon}  {capacity}%",
+      "format-time": "{H} h {M} min",
+      "format-alt": "{icon} {time}",
+      "format-icons": ["", "", "", "", ""]
+  },
+
+
+  "clock": {
+      "format": "{:%H:%M}",
+      "format-alt": "{:%m-%d-%Y}"
+  },
+
+
+  "cpu": {
+      "interval": 15,
+      "format": "  {}%",
+      "max-length": 10,
+      "on-click":"kitty -- bpytop"
+  },
+
+
+  "memory": {
+      "interval": 30,
+      "format": "  {}%",
+      "max-length": 10
+  },
+
+
+  "custom/media": {
+      "interval": 30,
+      "format": "{icon} {}",
+      "return-type": "json",
+      "max-length": 20,
+      "format-icons": {
+          "spotify": " ",
+          "default": " "
+      },
+      "escape": true,
+      "exec": "$HOME/.config/system_scripts/mediaplayer.py 2> /dev/null",
+      "on-click": "playerctl play-pause"
+  },
+
+
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "on-click": "activate",
+    "format-icons": {
+      "1": "일",
+      "2": "이",
+      "3": "삼",
+      "4": "사",
+      "5": "오",
+      "6": "육",
+      "7": "칠",
+      "8": "팔",
+      "9": "구",
+      "10": "십",
+    },
+    "active": "",
+    "sort-by-number": true
+  },
+}

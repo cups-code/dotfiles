@@ -1,0 +1,1 @@
+waybar dots go to: https://github.com/sane1090x/dotfiles/tree/gruvbox
