@@ -1,6 +1,6 @@
 # apollo@phrixus
 > local minecraft youtuber runs linux?!
-- If you want to view the old dotfiles, go here: https://github.com/cups-code/dotfiles-old
+- **If you want to view the old dotfiles, go here**: https://github.com/cups-code/dotfiles-old
 
 https://github.com/user-attachments/assets/b7b29960-f758-433d-a47a-5172bf35af43
 
@@ -42,7 +42,7 @@ https://github.com/user-attachments/assets/b7b29960-f758-433d-a47a-5172bf35af43
 ## Usage
 > This repository uses `gnu-stow` to store dotfiles and load them on an instance of Arch Linux. See here: https://www.gnu.org/software/stow/
 
-1. Install every (required) dependency with [`paru`](https://github.com/Morganamilo/paru)
+1. Install every (required) dependency with [`paru`](https://github.com/Morganamilo/paru) (install `paru` first)
 2. Install `stow` (if you haven't already)
 ```sh
 paru -S stow
