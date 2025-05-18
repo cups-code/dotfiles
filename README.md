@@ -19,21 +19,21 @@ https://github.com/user-attachments/assets/b7b29960-f758-433d-a47a-5172bf35af43
 
 > Versions are not super important, but some configuration files may not work if you are not using the package with the same or higher version.
 
-- Paru (2.0.4)
-- Hyprland (0.49.0)
-- Waybar (0.12.0)
-- Wofi (1.4.1)
+- **Paru** (2.0.4)
+- **Hyprland** (0.49.0)
+- *Btop (1.4.3-2)
+- Dunst (1.12.2-1)
 - *FastFetch (2.43.0)
 - Hyprspace (see [here](https://github.com/KZDKM/Hyprspace))
 - Hyprpaper (0.75.5-1)
 - Hyprshot (1.3.0-2)
-- Dunst (1.12.2-1)
-- *Btop (1.4.3-2)
 - Kitty (0.42.0-1)
 - *Neovim (0.11.1-2)
 - *NvChad (already in this repo (modified for gruvbox), [upstream](https://github.com/NvChad/NvChad))
 - *Starship (1.23.0) <- customises zsh
 - Stow (2.4.1)
+- Waybar (0.12.0) <- configuration from [here](https://github.com/sane1090x/dotfiles/tree/gruvbox) with a few tweaks
+- Wofi (1.4.1)
 - Zed (0.186.9)
 - Zsh (5.9-5)
 
