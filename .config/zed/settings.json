@@ -15,5 +15,6 @@
     "mode": "system",
     "light": "Gruvbox Dark Soft",
     "dark": "Gruvbox Dark Soft"
-  }
+  },
+  "autosave": "on_focus_change"
 }
