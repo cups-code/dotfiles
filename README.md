@@ -12,8 +12,9 @@ https://github.com/user-attachments/assets/b7b29960-f758-433d-a47a-5172bf35af43
 - WM, Compositor: Hyprland
 - Host: "phrixus"
 - AUR Helper: Paru
-- GTK: Gruvbox_GTK
-- Icons: Gruvbox Plus Dark
+- GTK: [Gruvbox_GTK](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme)
+- Icons: [Gruvbox Plus Dark](https://github.com/SylEleuth/gruvbox-plus-icon-pack)
+- Fonts: [Jetbrains Mono Nerd Font](https://archlinux.org/packages/extra/any/ttf-jetbrains-mono-nerd/) (you can also find this at https://notofonts.com/), [Noto Fonts CJK](https://archlinux.org/packages/?name=noto-fonts-cjk)
 
 ## Dependencies
 > Dependency versions are based on the latest commit to this README, which was May 18, 2025.
