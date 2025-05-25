@@ -32,6 +32,7 @@ alias wttr='curl wttr.in/Sydney'
 alias zed='zeditor'
 alias clock='tty-clock -S -c -t'
 alias wpsw='/home/apollo/wallpaper.sh'
+alias vencord='sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"'
 
 ## [Completion]
 ## Completion scripts setup. Remove the following line to uninstall
